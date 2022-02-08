@@ -12,6 +12,7 @@ are some sample queries hard coded. If you want to play around
 with the db, you can use DB Browser (https://sqlitebrowser.org/)
 
 Sources:
+
 PokeAPI: 	https://pokeapi.co/
 
 Veekun:		https://github.com/veekun/pokedex
