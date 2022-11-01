@@ -1,5 +1,8 @@
 # PokemonDatabase
 
+## Preview
+Link to video of database in action: https://youtu.be/V7IKl0XaLqA
+
 ## ER DIAGRAM
 
 ![ERDIAGRAM](pokemon.png)
@@ -39,59 +42,58 @@
 
 ###List of of Sample Queries:
 
-One of the constraints of the project was that users are not allowed to freely enter SQL commands. So, these
+One of the constraints of the project was that users are not allowed to freely enter SQL commands. So, these queries are hardcoded and can be returned by pressing buttons.
+```python
 
-queries are hardcoded and can be returned by pressing buttons.
-```
-1.	Heaviest Pokemon 
+1. Heaviest Pokemon 
 
-  a.	This query returns the 5 heaviest base Pokemon (not including the Forms)
+  a. This query returns the 5 heaviest base Pokemon (not including the Forms)
   
-2.	Base Pokemon with highest stats
+2. Base Pokemon with highest stats
 
-  a.	This query returns 5 Pokemon with the highest stats (not including Forms)
+  a. This query returns 5 Pokemon with the highest stats (not including Forms)
   
-3.	Type with most moves
+3. Type with most moves
 
-  a.	This query returns a list of types and the number of moves under that type in descending order.
+  a. This query returns a list of types and the number of moves under that type in descending order. 
   
-4.	Find the number of moves a Pokemon with a name starting with the letter “B” in each version group.
+4. Find the number of moves a Pokemon with a name starting with the letter “B” in each version group. 
 
-  a.	I.e., it will return the number of moves:
+  a. I. e. , it will return the number of moves:
   
-    i.	Bulbasaur can learn in version groups 1 to 20.
+    i. Bulbasaur can learn in version groups 1 to 20. 
     
-    ii.	Blastoise can learn in version groups 1 to 20.
+    ii. Blastoise can learn in version groups 1 to 20. 
     
-5.	Find legendary Pokemon that can evolve
+5. Find legendary Pokemon that can evolve
 
-  a.	This returns all the legendary Pokemon that can evolve
+  a. This returns all the legendary Pokemon that can evolve
   
-6.	Pokemon that can have more than 2 possible abilities
+6. Pokemon that can have more than 2 possible abilities
 
-  a.	This returns the Pokemon ID of all Pokemon that can have more than 2 possible abilities. This includes hidden abilities.
+  a. This returns the Pokemon ID of all Pokemon that can have more than 2 possible abilities.  This includes hidden abilities. 
   
-  b.	For example: Venomoth can have either Shield Dust or Tinted Lens, or Wonder skin (hidden ability)
+  b. For example: Venomoth can have either Shield Dust or Tinted Lens, or Wonder skin (hidden ability)
   
-7.	Distribution of Pokemon types per region
+7. Distribution of Pokemon types per region
 
-  a.	Returns the distribution of Pokemon types for each region. Note that Kanto is poisonous as hell.
+  a. Returns the distribution of Pokemon types for each region.  Note that Kanto is poisonous as hell. 
   
-8.	Palindrome Names
+8. Palindrome Names
 
-  a.	Returns all Pokemon with palindrome names.
+  a. Returns all Pokemon with palindrome names. 
   
-  b.	For example: eevee and ho-oh
+  b. For example: eevee and ho-oh
   
-9.	Pokemon with no evolution line
+9. Pokemon with no evolution line
 
-  a.	Returns all Pokemon that are not part of an evolution family (i.e, doesn’t evolve)
+  a. Returns all Pokemon that are not part of an evolution family (i. e, doesn’t evolve)
   
-  b.	In addition, legendary and mythical Pokemon are excluded as most of them do not evolve anyway.
+  b. In addition, legendary and mythical Pokemon are excluded as most of them do not evolve anyway. 
   
-  c.	Finally, for our purposes, regional form evolutions are counted.
+  c. Finally, for our purposes, regional form evolutions are counted. 
   
-10.	Average height of all egg groups
+10. Average height of all egg groups
 ```
 
 Sources:
