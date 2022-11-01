@@ -1,14 +1,16 @@
 # PokemonDatabase
 
 ## Preview
-Link to video of database in action: https://youtu.be/V7IKl0XaLqA
+![pythonProject](https://user-images.githubusercontent.com/93283233/199291415-97b33c67-27b0-495c-9b3f-721aec19acff.png)
 
 ## ER DIAGRAM
 
 ![ERDIAGRAM](pokemon.png)
 
 ### Summary of Database:
- |Table Name|Cardinality|Arity|
+
+ 
+|Table Name|Cardinality|Arity|
 |-------------------|--------------:|--------------:|
 |Ability|326|4|
 |Areas|702|3|
@@ -40,22 +42,22 @@ Link to video of database in action: https://youtu.be/V7IKl0XaLqA
 |VersionGroup|20|3|
 
 
-###List of of Sample Queries:
+### List of of Sample Queries:
 
 One of the constraints of the project was that users are not allowed to freely enter SQL commands. So, these queries are hardcoded and can be returned by pressing buttons.
-```python
+```
 
-1. Heaviest Pokemon 
+1. Heaviest/Lightest Pokemon 
 
-  a. This query returns the 5 heaviest base Pokemon (not including the Forms)
+  a. This query returns the 5 heaviest/lightest base Pokemon (not including the Forms)
   
-2. Base Pokemon with highest stats
+2. Base Pokemon with highest/lowest stats
 
-  a. This query returns 5 Pokemon with the highest stats (not including Forms)
+  a. This query returns 5 Pokemon with the highest/lowest stats (not including Forms)
   
-3. Type with most moves
+3. Type with most/least moves
 
-  a. This query returns a list of types and the number of moves under that type in descending order. 
+  a. This query returns a list of types and the number of moves under that type in descending/ascending order. 
   
 4. Find the number of moves a Pokemon with a name starting with the letter “B” in each version group. 
 
@@ -96,7 +98,7 @@ One of the constraints of the project was that users are not allowed to freely e
 10. Average height of all egg groups
 ```
 
-Sources:
+### Data Sources:
 
 PokeAPI: 	https://pokeapi.co/
 
