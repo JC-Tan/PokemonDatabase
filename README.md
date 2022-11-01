@@ -44,7 +44,7 @@
 
 ### List of of Sample Queries:
 
-One of the constraints of the project was that users are not allowed to freely enter SQL commands. So, these queries are hardcoded and can be returned by pressing buttons.
+One of the constraints of the project is that users are not allowed to freely enter SQL commands. So, these queries are hardcoded and can be returned by pressing buttons.
 ```
 
 1. Heaviest/Lightest Pokemon 
