@@ -42,7 +42,7 @@
 One of the constraints of the project was that users are not allowed to freely enter SQL commands. So, these
 
 queries are hardcoded and can be returned by pressing buttons.
-
+```
 1.	Heaviest Pokemon 
 
   a.	This query returns the 5 heaviest base Pokemon (not including the Forms)
@@ -92,8 +92,7 @@ queries are hardcoded and can be returned by pressing buttons.
   c.	Finally, for our purposes, regional form evolutions are counted.
   
 10.	Average height of all egg groups
-
-
+```
 
 Sources:
 
